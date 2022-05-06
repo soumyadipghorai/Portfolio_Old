@@ -1,0 +1,152 @@
+.home-banner{
+    padding-top: 8%;
+}
+
+.intro{
+    width: fit-content;
+    padding: 1%;
+    margin: 1% 0% 1% 0%;
+    border-radius: 20px 20px 20px 5px;
+    background: var(--primaryColor);
+    font-size: 1.8vw;
+    font-weight: 500;
+    color: white;
+}
+
+.name{
+    font-size: 2.7vw;
+    font-weight: 700;
+    margin: 1% 0% 1% 0%;
+}
+
+.profession{
+    font-size: 1.8vw;
+    font-weight: 500;
+    margin: 1% 0% 1% 0%;
+}
+
+    .profession a{
+        text-decoration: none;
+        color: var(--primaryColor);
+    }
+
+.address, .email{
+    font-size: 1.1vw;
+    font-weight: 400;
+    margin: 2% 0% 2% 0%;
+}
+
+.profiles{
+    padding: 2% 0% 2% 0%;
+    margin: 2% 0% 2% 0%;
+    display: flex;
+}
+
+    .profile-image{
+        justify-content: center;
+        align-items: center;
+        margin: 1%;
+        padding: 1%;
+        border-radius: 5px;
+    } 
+        .profile-image:hover{
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+            cursor: pointer;
+            transition: 0.2s linear;
+        }
+
+.home-banner-image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.resume-button{
+    background-color: var(--primaryColor);
+    color: white;
+    padding: 1% 3% 1% 3%;
+    border-radius: 5px;
+    border: 0px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+    .resume-button:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        cursor: pointer;
+        transition: 0.1s linear;
+    }
+
+.hire-me-button{
+    background-color: white;
+    color: var(--primaryColor);
+    padding: 1% 3% 1% 3%;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+    .hire-me-button:hover{
+        box-shadow: 0px 0px 0px 0px;
+        transition: 0.1s linear;
+        border: 0.5px solid var(--bordercolor);
+    }
+
+
+@media screen and (max-width : 948px) {
+    .intro{
+        font-size: 2vw;
+    }
+
+    .address, .email{
+        font-size: 1.5vw;
+    }
+
+    .profile-image img{
+        max-width: 20px;
+    }
+
+    .profile-image{
+        margin: 2%;
+    }
+    .banner-buttons{
+        font-size: 1.6vw;
+    }
+}
+
+@media screen and (max-width : 480px){
+    .home-banner{
+        padding-top: 20%;
+    }
+    .intro{
+        font-size: 4.5vw;
+    }
+    .name{
+        font-size: 5.5vw;
+    }
+    .profession{
+        font-size: 4.5vw;
+    }
+    .address, .email{
+        font-size: 4vw;
+    }
+
+    .profile-image img{
+        max-width: 20px;
+    }
+
+    .profile-image{
+        margin: 2%;
+    }
+    .banner-buttons{
+        font-size: 4.1vw;
+    }
+    .header-banner-text{
+        margin-bottom: 3%;
+    }
+    .header-banner-image{
+        display: flex;
+        justify-content: center;
+    }
+}

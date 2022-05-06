@@ -1,0 +1,103 @@
+.education{
+    background-color: #ffffff;
+    background-image: radial-gradient(#d3d3d3 0.8500000000000001px, #ffffff 0.8500000000000001px);
+    background-size: 17px 17px;
+    padding-bottom: 3.5%;
+    padding-top: 3%;
+}
+
+.certificate-wrapper{
+    display: flex;
+    justify-content: center;
+    gap : 1rem;
+}
+
+.education-button{
+    background-color: white;
+    color: var(--primaryColor);
+    padding: 1% 3% 1% 3%;
+    border: 0.5px solid var(--bordercolor);
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+    .education-button:hover{
+        background-color: white;
+        color: black;    
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        transition: 0.1s linear;
+    }
+
+
+.education-card{
+    display: flex;
+}
+
+.university-logo img{
+    width: 60px;
+}
+
+    .university-name h3{
+        font-size: 15px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .degree-info{
+        margin-left: 28px;
+    }
+
+    .degree-info p{
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+        font-weight: 450;
+    }
+
+    .degree-info span{
+        font-size: 13px;
+    }
+
+@media (max-width : 948px){
+    .certificate-wrapper{
+        display: block;
+        justify-content: center;
+    }
+    .education .card-body{
+        padding: 5%;
+    }
+    .education .card-body .education-card{
+        display: block;
+    }
+    .university-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .education .card-body .university-logo img{
+        max-width: 50px;
+    }
+    .degree-info{
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width : 480px){
+    .education-button{
+        font-size: 3.6vw;
+        margin-bottom: 10px;
+    }
+    .university-logo{
+        display: none;
+    }
+
+    .education .row{
+        display: block;
+    }
+
+    #multiCollapseExample1, #multiCollapseExample2, #multiCollapseExample3{
+        margin-bottom: 10px;
+    }
+}

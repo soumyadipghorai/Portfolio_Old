@@ -1,0 +1,26 @@
+project : 
+
+Data Analysis and viualization 
+-- covid-19 
+-- omicron 
+-- IPO
+--Indian food 
+-- windows store 
+--space missions 
+-- data analyst jobs 
+--olympic 
+
+web scraping : 
+college dataset --> kaggle
+scrapy 
+moneycontrol 
+cartrade 
+millionaire 
+
+web based : 
+portfolio 
+news app 
+personal finance
+
+machine learning : 
+car price prediction 

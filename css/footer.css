@@ -1,0 +1,52 @@
+footer h4, p{
+    text-align: center;
+    padding: 5px;
+}
+
+/* footer{
+    background-image: url('images/wave.svg');
+} */
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a{
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.social-links img{
+    height: 25px;
+}
+
+    .social-links a:hover{
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        cursor: pointer;
+        transition: 0.2s linear;
+    }
+
+@media screen and (max-width : 948px){
+    footer h4{
+        font-size: 2.4vw;
+    }
+    footer p{
+        font-size: 1.8vw;
+    }
+    .copy-right p{
+        font-size: 1.2vw;
+    }
+}
+
+@media screen and (max-width : 480px){
+    footer h4{
+        font-size: 4vw;
+    }
+    footer p{
+        font-size: 3vw;
+    }
+    .copy-right p{
+        font-size: 2.5vw;
+    }
+}

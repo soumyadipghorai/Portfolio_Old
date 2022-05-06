@@ -1,0 +1,131 @@
+.contact-me{
+    margin: 20px 50px 20px 5px;
+    padding: 30px;
+    /* display: none; */
+}
+
+.contact-me-text h4{
+    /* text-align: center; */
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px 10px 10px;
+    margin: 15px 10px 10px 0px;
+    color: rgba(49,247,232,255);
+}
+
+.form-container{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    margin-top: 5%;
+    margin: 2% 15% 2% 15%;
+    padding: 2% 5% 2% 5%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(181, 191, 192);
+}
+
+.contact-me-text p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 2px 0px 2px 10px;
+}
+
+.contact-me-form .submit{
+    padding: 10px 25px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color : rgba(49,247,232,255);
+    border: none;
+    color: white;
+}
+
+.contact-me-form .submit:hover{
+    box-shadow: 0px 0px 10px rgb(150, 150, 150);
+}
+
+.contact-me-form .input-box{
+    padding-left: 5px;
+    height: 25px;
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 18px;
+    border-style: hidden;
+    border-bottom: 1px dotted;
+}
+
+.contact-me-form .large{
+    height: 100px;
+    margin-left: 0px;
+}
+
+.contact-me-form p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 2px 0px 2px 10px;
+}
+
+.subject{
+    margin-left: 5px;
+}
+
+/* .contact-me-form::placeholder{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 2px 0px 2px 10px;
+} */
+
+@media (max-width: 680px){
+    .contact-me{
+        margin: 20px 10px;
+        padding: 10px;
+    }
+    .form-container{
+        margin: 0px;
+        padding: 0px;
+        display: contents;
+    }
+    .contact-me-text h4{
+        font-size: 18px;
+    }
+
+    .contact-me-text p{
+        font-size: 14px;
+    }
+
+    .contact-me-form p{
+        font-size: 14px;
+    }
+    .contact-me-form .input-box{
+        padding-left: 0px;
+        border-radius: 5px;
+    }
+
+    .contact-me-form .input-box{
+        height: 30px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .subject{
+        margin-left: 0px;
+    }
+
+    .input-box::placeholder{
+        color: white;
+    }
+
+    .contact-me-form button{
+        padding: 5px 10px ;
+    }
+}

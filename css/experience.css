@@ -1,0 +1,84 @@
+.experience-biscuits{
+    padding: 1.5% ;
+    border-radius: 5px;
+    box-shadow: rgba(190, 191, 192, 0.15) 0px 5px 15px 0px;    
+    border: 0.5px solid rgba(0,0,0,.125);
+    margin-bottom: 2%;
+}
+
+    .experience-biscuits:hover{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        transition: 0.2s linear;
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
+
+.company-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-text{
+    padding: 1% 1% 0% 2%;
+}
+
+.position .company-name {
+    font-weight: 600;
+}
+
+.position .location , .role{
+    font-weight: 400;
+    color: rgb(80, 80, 80);
+}
+
+.work-done p{
+    text-align: justify;
+    padding: 0;
+}
+
+.company-logo{
+    width: 200px;
+}
+
+.company-logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+
+@media screen and (max-width : 948px){
+    .company-logo img{
+        max-height: 80px;
+    }
+
+    .company-text span{
+        font-size: 1.8vw;
+    }
+        .company-text p{
+            font-size: 1.6vw;
+        }
+}
+
+@media screen and (min-width : 480px) {
+    .mobile-experience{
+        display: none;
+    }
+}
+
+@media screen and (max-width : 480px){
+    .company-logo img{
+        max-height: 40px;
+    }
+
+    .company-text span{
+        font-size: 2.8vw;
+    }
+        .company-text p{
+            font-size: 2.6vw;
+        }
+
+    .experience{
+        display: none;
+    }
+}

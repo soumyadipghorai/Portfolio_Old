@@ -1,0 +1,55 @@
+.project-class-heading{
+    margin: 1%;
+}
+.item img{
+    height: 200px;
+}
+
+.item:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: 0.2s linear;
+    cursor: pointer;
+    transform: translateY(-10px);
+    border-radius: 5px;
+}
+
+.card-image .content-overlay{
+    background: #454b4a;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    transition: all 0.4s ease-in-out;  
+    opacity: 0.5;
+}
+
+.card-image:hover .content-overlay{
+    opacity: 0;
+}
+
+.owl-stage{
+    padding: 10px 0px 10px 0px;
+
+}
+
+@media screen and (max-width : 948px){
+    .projects h3{
+        font-size: 2.8vw;
+    }
+
+    .projects h4{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width : 480px){
+    .projects h3{
+        font-size: 4.8vw;
+    }
+
+    .projects h4{
+        font-size: 3.6vw;
+    }
+    .projects p{
+        display: none;
+    }
+}

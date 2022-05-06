@@ -1,0 +1,17 @@
+@media screen and (max-width : 948px){
+    .certificate-wrapper{
+        display: flex;
+    }
+}
+
+@media screen and (min-width : 480px) {
+    .mobile-certificates{
+        display: none;
+    }
+}
+
+@media screen and (max-width : 480px){
+    .certificates{
+        display: none;
+    }
+}

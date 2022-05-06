@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+:root{
+    --primaryColor : #141414;
+    --secondaryColor : rgba(49,247,232,255); 
+    --bordercolor : rgba(0,0,0,.125);
+    --headerFontSize : 20px; 
+    --paraFontSize : 18px;
+    --paraFontFamliy : 'Libre Baskerville', serif;
+}
+
+.wrapper{
+    padding: 2%;
+    margin: 2%;
+}
+
+.section-name{
+    text-align: center;
+} 
+
