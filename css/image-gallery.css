@@ -10,7 +10,7 @@
     border-radius: 15px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     width: 95%;
-    height: 500px;
+    height: 400px;
     margin: 2%;
     padding: 2%;
     background: white;
@@ -32,27 +32,21 @@
 }
 
 @media screen and (max-width : 948px){
-    /* .gallery{
-        bottom: 60px;
-    } */
-
     .gallery-text p{
         font-size: 1.6vw;
     }
 }
 
 @media screen and (max-width : 480px){
-    /* .gallery{
-        bottom: 30px;
-    } */
     .gallery-text p{
         font-size: 4vw;
+        display: none;
     }
     .gallery-text{
         max-height: 100px;
     }
     .gallery-wrapper{
-        max-height: 400px;
+        height: 100%;
     }
     .image-div, .image-wrapper{
         margin: 0;

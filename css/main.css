@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
 :root{
     --primaryColor : #141414;
-    --secondaryColor : rgba(49,247,232,255); 
+    --secondaryColor : rgba(49,247,232,255); /*#31f7e8 */
+    --secondaryColor2 : rgba(26,181,214,255);
     --bordercolor : rgba(0,0,0,.125);
     --headerFontSize : 20px; 
     --paraFontSize : 18px;
-    --paraFontFamliy : 'Libre Baskerville', serif;
+    --paraFontFamliy : 'Roboto Flex', sans-serif;
 }
 
 .wrapper{

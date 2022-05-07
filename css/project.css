@@ -31,6 +31,13 @@
 
 }
 
+.project-link{
+    padding: 1% 2%;
+    border: 0.5px solid var(--secondaryColor);
+    border-radius: 5px;
+    color: var(--secondaryColor);
+}
+
 @media screen and (max-width : 948px){
     .projects h3{
         font-size: 2.8vw;
