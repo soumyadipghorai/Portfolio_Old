@@ -72,4 +72,7 @@ nav li:hover{
     .navbar-element-color{
         font-size: 2.8vw;
     }
+    .navbar-expand-xl{
+        margin-left: 4%;
+    }
 }

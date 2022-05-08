@@ -50,7 +50,7 @@
         border-radius: 5px;
     } 
         .profile-image:hover{
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: var(--boxShadowStyle);
             cursor: pointer;
             transition: 0.2s linear;
         }
@@ -60,6 +60,10 @@
     justify-content: center;
 }
 
+    .home-banner-image-container video{
+        height: 500px;
+    }
+
 .resume-button{
     background-color: var(--primaryColor);
     color: white;
@@ -68,9 +72,10 @@
     border: 0px;
     margin-right: 20px;
     text-transform: uppercase;
+    box-shadow: var(--boxShadowStyle);
 }
     .resume-button:hover{
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-shadow: none;
         cursor: pointer;
         transition: 0.1s linear;
     }
@@ -82,7 +87,7 @@
     border: 0.5px solid white;
     border-radius: 5px;
     margin-right: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: var(--boxShadowStyle);
     cursor: pointer;
     text-transform: uppercase;
 }
@@ -95,6 +100,9 @@
 
 
 @media screen and (max-width : 948px) {
+    .home-banner-image-container video{
+        height: 350px;
+    }
     .intro{
         font-size: 2vw;
     }

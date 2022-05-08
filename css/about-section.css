@@ -27,6 +27,12 @@
     color: white;
 }
 
+.about-section-image{
+    height: 50%;
+}
+.about-section-image video{
+    width: 100%;
+}
 
 @media screen and (max-width : 948px){
     .about-section-text .text-container p, .software-tools-name{
