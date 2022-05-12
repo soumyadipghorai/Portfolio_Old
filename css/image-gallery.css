@@ -7,7 +7,7 @@
     /* bottom: 130px; */ 
 }
 .gallery-wrapper{
-    border-radius: 15px;
+    border-radius: var(--borderRadius);
     box-shadow: var(--boxShadowStyle);
     width: 95%;
     height: 400px;
@@ -28,7 +28,7 @@
 
 .gallery .carousel-item img{
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-    border-radius: 10px;
+    border-radius: var(--borderRadius);
 }
 
 @media screen and (max-width : 948px){

@@ -11,7 +11,8 @@ nav li {
  
 nav li:hover{
     background: var(--primaryColor);
-    border-radius: 3px;
+    color: white;
+    border-radius: var(--borderRadius);
     transition: 0.4s ;
 }
 

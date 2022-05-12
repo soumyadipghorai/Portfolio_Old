@@ -10,7 +10,7 @@
     transition: 0.2s linear;
     cursor: pointer;
     transform: translateY(-10px);
-    border-radius: 5px;
+    border-radius: var(--borderRadius);
 }
 
 .card-image .content-overlay{
@@ -34,7 +34,7 @@
 .project-link{
     padding: 1% 2%;
     border: 0.5px solid var(--secondaryColor);
-    border-radius: 5px;
+    border-radius: var(--borderRadius);
     color: var(--secondaryColor);
 }
 

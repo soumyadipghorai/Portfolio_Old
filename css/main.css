@@ -8,6 +8,7 @@
     --paraFontSize : 18px;
     --paraFontFamliy : 'Roboto Flex', sans-serif;
     --boxShadowStyle : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --borderRadius : 5px;
 }
 
 .wrapper{

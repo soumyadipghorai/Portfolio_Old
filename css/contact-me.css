@@ -21,7 +21,7 @@
     margin-top: 5%;
     margin: 2% 15% 2% 15%;
     padding: 2% 5% 2% 5%;
-    border-radius: 10px;
+    border-radius: var(--borderRadius);
     box-shadow: 0px 0px 10px rgb(181, 191, 192);
 }
 
@@ -37,7 +37,7 @@
 .contact-me-form .submit{
     padding: 10px 25px;
     margin: 10px 0px 10px 0px;
-    border-radius: 10px;
+    border-radius: var(--borderRadius);
     text-transform: uppercase;
     background-color : rgba(49,247,232,255);
     border: none;
@@ -52,7 +52,7 @@
     padding-left: 5px;
     height: 25px;
     width: 350px;
-    border-radius: 10px;
+    border-radius: var(--borderRadius);
     margin-left: 18px;
     border-style: hidden;
     border-bottom: 1px dotted;
@@ -108,7 +108,7 @@
     }
     .contact-me-form .input-box{
         padding-left: 0px;
-        border-radius: 5px;
+        border-radius: var(--borderRadius);
     }
 
     .contact-me-form .input-box{

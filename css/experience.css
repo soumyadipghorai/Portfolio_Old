@@ -1,6 +1,6 @@
 .experience-biscuits{
     padding: 1.5% ;
-    border-radius: 5px;
+    border-radius: var(--borderRadius);
     box-shadow: rgba(190, 191, 192, 0.15) 0px 5px 15px 0px;    
     border: 0.5px solid rgba(0,0,0,.125);
     margin-bottom: 2%;
