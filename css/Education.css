@@ -88,6 +88,9 @@
     .university-logo{
         display: none;
     }
+    .university-name h3{
+        color: var(--secondaryColor);
+    }
 
     .education .row{
         display: block;
