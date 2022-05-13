@@ -6,6 +6,11 @@
     padding-top: 3%;
 }
 
+.education .container{
+    background-color: white;
+    border-radius: var(--borderRadius);
+}
+
 .education-button{
     background-color: var(--primaryColor);
     color: white;
@@ -40,6 +45,7 @@
         font-size: 15px;
         margin: 0px;
         padding: 0px;
+        color: var(--secondaryColor);
     }
 
     .degree-info{
@@ -87,9 +93,6 @@
     }
     .university-logo{
         display: none;
-    }
-    .university-name h3{
-        color: var(--secondaryColor);
     }
 
     .education .row{

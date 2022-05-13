@@ -21,6 +21,13 @@
 .company-text{
     padding: 1% 1% 0% 2%;
 }
+    .company-text .work-done span{
+        padding: 2px 5px 5px 5px;
+        border-radius: var(--borderRadius);
+        margin-left: 5px;
+        background-image: linear-gradient(60deg, var(--secondaryColor), rgb(140, 251, 242));
+        color: white;
+    }
 
 .position .company-name {
     font-weight: 600;

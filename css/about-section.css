@@ -6,6 +6,11 @@
     padding-bottom: 3%;
 }
 
+.about-me .container{
+    background-color: white;
+    border-radius: var(--borderRadius);
+}
+
 .about-section-text .text-container{
     margin: 3%;
     background-color: white;
