@@ -4,7 +4,6 @@
     padding-top: 3.5%;
     padding-bottom: 3%;
     position: relative;
-    /* bottom: 130px; */ 
 }
 .gallery-wrapper{
     border-radius: var(--borderRadius);
@@ -24,6 +23,14 @@
     text-align: justify;
     margin: 1%;
     padding: 1%;
+}
+
+.gallery-text span{
+    padding: 2px 5px 5px 5px;
+    border-radius: var(--borderRadius);
+    margin-left: 5px;
+    background-image: linear-gradient(60deg, var(--secondaryColor), rgb(140, 251, 242));
+    color: white;
 }
 
 .gallery .carousel-item img{
