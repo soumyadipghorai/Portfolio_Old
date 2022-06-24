@@ -28,8 +28,14 @@
 
 .owl-stage{
     padding: 10px 0px 10px 0px;
-
 }
+    .owl-dots{
+        display: none;
+    }
+
+    .owl-nav button span{
+        font-size: 2.6vw;
+    }
 
 .project-link{
     padding: 1% 2%;
@@ -46,6 +52,7 @@
     .projects h4{
         font-size: 2vw;
     }
+
 }
 
 @media screen and (max-width : 480px){
@@ -58,5 +65,8 @@
     }
     .projects p{
         display: none;
+    }
+    .owl-nav button span{
+        font-size: 6vw;
     }
 }

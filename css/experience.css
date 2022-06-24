@@ -15,7 +15,6 @@
 
 .company-info{
     display: flex;
-    justify-content: space-between;
 }
 
 .company-text{
@@ -66,6 +65,11 @@
         .company-text p{
             font-size: 1.6vw;
         }
+    
+    .work-done li{
+        font-size: 1.8vw;
+    }
+        
 }
 
 @media screen and (min-width : 480px) {
@@ -83,8 +87,14 @@
         font-size: 2.8vw;
     }
         .company-text p{
-            font-size: 2.6vw;
+            font-size: 2.8vw;
         }
+
+    .work-done li{
+        font-size: 2.8vw;
+        text-align: justify;
+        margin-bottom: 3%;
+    }
 
     .experience{
         display: none;
