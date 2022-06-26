@@ -41,7 +41,6 @@
     padding: 1% 2%;
     border: 0.5px solid var(--secondaryColor);
     border-radius: var(--borderRadius);
-    color: var(--secondaryColor);
 }
 
 @media screen and (max-width : 948px){
