@@ -54,6 +54,26 @@
     height: 100px;
 }
 
+.about-company p{
+    margin: 2% 0% 2% 0%;
+    padding: 0;
+    text-align: justify;
+}
+
+.mobile-experience .about-company p{
+    margin: 6% 0% 5% 0%;
+    padding: 0;
+    text-align: justify;
+}
+
+.tools-and-tech span, b{
+    font-size: 14px;
+}
+
+.role, .company-name, .location{
+    font-size: 1.3vw;
+}
+
 @media screen and (max-width : 948px){
     .company-logo img{
         max-height: 80px;
@@ -67,7 +87,10 @@
         }
     
     .work-done li{
+        margin: 0;
+        padding: 0;
         font-size: 1.8vw;
+        list-style-type: circle;
     }
         
 }
@@ -82,6 +105,10 @@
     .mobile-experience{
         margin-top: 10%;
     }
+
+    .mobile-experience .role, .mobile-experience .company-name, .mobile-experience .location{
+        font-size: 3.6vw;
+    }
     
     .company-logo img{
         max-height: 40px;
@@ -95,12 +122,18 @@
         }
 
     .work-done li{
+        margin: 0;
+        padding: 0;
         font-size: 2.8vw;
         text-align: justify;
-        margin-bottom: 3%;
+        margin-bottom: 2.5%;
     }
 
     .experience{
         display: none;
+    }
+
+    .tools-and-tech span, b{
+        font-size: 2.6vw;
     }
 }

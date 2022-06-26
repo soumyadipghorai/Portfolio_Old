@@ -37,12 +37,23 @@
         font-size: 2.6vw;
     }
 
-.project-link{
+.project-link, .project-tag-links a{
     padding: 1% 2%;
     border: 0.5px solid var(--secondaryColor);
     border-radius: var(--borderRadius);
+    font-size: 10px;
 }
 
+.project-link:hover, .project-tag-links a:hover{
+    box-shadow: var(--boxShadowStyle);
+    border: 0.5px solid white;
+    transition: 0.3s linear;
+}
+
+.project-tag-links{
+    display: flex;
+    justify-content: space-between;
+}
 @media screen and (max-width : 948px){
     .projects h3{
         font-size: 2.8vw;
