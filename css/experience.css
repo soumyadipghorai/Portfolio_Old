@@ -20,7 +20,7 @@
 .company-text{
     padding: 1% 1% 0% 2%;
 }
-    .company-text .work-done span{
+    .company-text .work-done .tools-and-tech span{
         padding: 2px 5px 5px 5px;
         border-radius: var(--borderRadius);
         margin-left: 5px;
@@ -43,6 +43,10 @@
     padding: 0;
 }
 
+    .work-done a{
+        text-decoration: none;
+    }
+
 .company-logo{
     width: 200px;
 }
@@ -60,6 +64,15 @@
     text-align: justify;
 }
 
+.company-certificate span{
+    background-color: var(--primaryColor);
+    border: 0.5px solid var(--primaryColor);;
+    border-radius: var(--borderRadius);
+    color: white;
+    padding: 2px 8px 4px 8px;
+    font-size: 12px;
+}
+
 .mobile-experience .about-company p{
     margin: 6% 0% 5% 0%;
     padding: 0;
@@ -74,22 +87,25 @@
     font-size: 1.3vw;
 }
 
+.company-text p, li{
+    font-size: 1vw;
+}
+
 @media screen and (max-width : 948px){
     .company-logo img{
         max-height: 80px;
     }
 
     .company-text span{
-        font-size: 1.8vw;
+        font-size: 2vw;
     }
-        .company-text p{
-            font-size: 1.6vw;
+        .company-text p, li{
+            font-size: 1.7vw;
         }
-    
+
     .work-done li{
         margin: 0;
         padding: 0;
-        font-size: 1.8vw;
         list-style-type: circle;
     }
         

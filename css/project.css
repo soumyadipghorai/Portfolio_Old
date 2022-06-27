@@ -42,6 +42,7 @@
     border: 0.5px solid var(--secondaryColor);
     border-radius: var(--borderRadius);
     font-size: 10px;
+    background-color: white;
 }
 
 .project-link:hover, .project-tag-links a:hover{
