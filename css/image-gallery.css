@@ -9,7 +9,7 @@
     border-radius: var(--borderRadius);
     box-shadow: var(--boxShadowStyle);
     width: 95%;
-    height: 400px;
+    height: 370px;
     margin: 2%;
     padding: 2%;
     background: white;
@@ -41,10 +41,17 @@
 @media screen and (max-width : 948px){
     .gallery-text p{
         font-size: 1.6vw;
+        margin: 0.5%;
+        padding: 0.5%;
+    }
+
+    .gallery-wrapper{
+        height: 230px;
     }
 }
 
 @media screen and (max-width : 480px){
+
     .gallery-text p{
         font-size: 4vw;
         display: none;
