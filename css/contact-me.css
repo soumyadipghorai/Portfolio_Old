@@ -1,21 +1,39 @@
+.contact-me-button{
+    margin-left: 10px;
+    padding-left: 2px;
+    display: flex;
+    background: var(--primaryColor);
+    color: white;
+    border: 0.5px solid var(--primaryColor);
+    border-radius: var(--borderRadius);
+    box-shadow: var(--boxShadowStyle);
+}
+
+    .contact-me-button:hover{
+        box-shadow: 0px 0px 0px white;
+    }
+
 #contact-me{
     display: flex;
     justify-content: center;
+    /* margin-top: 10%; */
 }
 
 .contact-me .row{
     width: 60%;
-    margin-top: 5% 2% 0% 2%;
+    margin: 7% 2% 0% 2%;
     border-radius: var(--borderRadius);
     box-shadow: var(--boxShadowStyle);
 }
 
 #contact-me .image-container img{
-    max-width: 100%;
+    width: 100%;
+    border-radius:var(--borderRadius);
 }
 
 .image-container{
     margin-left: 0%;
+    padding: 0%;
 }
 
 .contact-me .col-lg-6 .image-container{
@@ -47,13 +65,20 @@
         transition: 0.1s linear;
     }
 
+@media screen and (max-width : 948px){
+    .contact-me .row{
+        margin: 10% 2% 0% 2%;
+    }
+}
+
 @media screen and (max-width : 480px){
     .contact-me .row{
         width: 91%;
+        margin-top: 15% ;
     }
 
     .contact-me .row{
-        margin-top: 7%;
+        margin-top: 17% 2% 0% 2%;
         box-shadow: 0px 0px 0px white;
     }
 }
