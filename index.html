@@ -936,7 +936,7 @@
             <div class="col-lg-7">
                 <div class="form-text">
                     <h2>Contact Me</h2>
-                    <form action="mail.php" method="POST" autocomplete="off" >
+                    <form action="https://formspree.io/f/meqnwdld" method="POST" autocomplete="off" >
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" required name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
@@ -949,7 +949,8 @@
                             <label for="exampleInputPassword1">Message</label>
                             <textarea class="form-control" required name="message" placeholder="Message" id="exampleFormControlTextarea1" rows="4"></textarea>
                         </div>
-                        <button onclick="popUp()" type="submit" class="submit-button">Submit</button>
+                        <!-- <button onclick="popUp()" type="submit" class="submit-button">Submit</button> -->
+                        <button type="submit" class="submit-button">Submit</button>
                     </form>
                 </div>
             </div>
@@ -999,15 +1000,14 @@
     </script>
 
     <script>
-        function popUp(){
-            var emailValue = document.getElementsByName('email').value;
-            var subjectValue = document.getElementsByName('email').value;
-            var messageValue = document.getElementsByName('email').value;
-            if (emailValue && subjectValue && messageValue){
-                alert("Thanks for contacting me. I'll get back to you ASAP")
-            }
-            // alert("Thanks for contacting me. I'll get back to you ASAP")
-        }
+        // function popUp(){
+        //     var emailValue = document.getElementsByName('email').value;
+        //     var subjectValue = document.getElementsByName('email').value;
+        //     var messageValue = document.getElementsByName('email').value;
+        //     if (emailValue && subjectValue && messageValue){
+        //         alert("Thanks for contacting me. I'll get back to you ASAP")
+        //     }
+        // }
     </script>
 
 </body>
