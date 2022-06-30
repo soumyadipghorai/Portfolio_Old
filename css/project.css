@@ -1,3 +1,7 @@
+#projects{
+    margin-top: 2%;
+}
+
 .project-class-heading{
     margin: 1%;
 }
@@ -26,8 +30,9 @@
     opacity: 0;
 }
 
-.projects .card-body{
-    /* border: 0.5px solid var(--secondaryColor); */
+.projects .card-body p{
+    font-size: var(--paraFontSize);
+    text-align: justify;
 }
 
 .owl-stage{
@@ -52,12 +57,26 @@
 
     .app-link button:hover{
         box-shadow: var(--boxShadowStyle);
-        transform: translateY(-2px);
     }
 
 
 
-.project-link, .project-tag-links .github-link {
+.project-link{
+    padding: 1% 2% 0.4% 2%;
+    border-radius: var(--borderRadius);
+    margin-left: 5px;
+    font-size: 11px;
+    background-image: linear-gradient(60deg, var(--secondaryColor), rgb(140, 251, 242));
+    color: white;
+}
+
+    .project-link:hover{
+        box-shadow: var(--boxShadowStyle);
+        transition: 0.3s linear;
+    }
+
+
+.project-tag-links .github-link {
     padding: 1% 2% 0.5% 2%;
     border: 0.5px solid var(--secondaryColor);
     border-radius: var(--borderRadius);
@@ -67,7 +86,9 @@
     text-decoration: none;
 }
 
-    .project-link:hover, .project-tag-links .github-link:hover{
+
+
+    .project-tag-links .github-link:hover{
         box-shadow: var(--boxShadowStyle);
         border: 0.5px solid white;
         transition: 0.3s linear;

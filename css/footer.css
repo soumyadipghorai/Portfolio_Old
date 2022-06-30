@@ -21,7 +21,7 @@ footer h4, p{
 }
 
 .social-links img{
-    height: 25px;
+    width: 25px;
 }
 
     .social-links a:hover{
@@ -39,6 +39,10 @@ footer h4, p{
     }
     .copy-right p{
         font-size: 1.2vw;
+    }
+
+    .social-links img{
+        max-width: 20px;
     }
 }
 

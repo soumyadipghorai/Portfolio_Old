@@ -5,10 +5,13 @@
     --secondaryColor2 : rgba(26,181,214,255);
     --bordercolor : rgba(0,0,0,.125);
     --headerFontSize : 20px; 
-    --paraFontSize : 18px;
+    --paraFontSize : 16px;
     --paraFontFamliy : 'Roboto Flex', sans-serif;
     --boxShadowStyle : rgba(0, 0, 0, 0.24) 0px 3px 8px;
     --borderRadius : 5px;
+    --mainHeaderSizeLarge : 2vw;
+    --mainHeaderSizeMedium : 2vw;
+    --mainHeaderSizeSmall : 1vw;
 }
 
 .wrapper{
@@ -20,3 +23,54 @@
     text-align: center;
 } 
 
+.reveal {
+    position: relative;
+    opacity: 0;
+  }
+  
+    .reveal.active {
+        opacity: 1;
+    }
+
+.active.fade-bottom{
+    animation: fade-bottom 0.8s ease-in;
+}
+.active.fade-left{
+    animation: fade-left 0.8s ease-in;
+}
+.active.fade-right{
+    animation: fade-right 0.8s ease-in;
+}
+
+@keyframes fade-bottom {
+    0% {
+      transform: translateY(70px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+
+@keyframes fade-left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+  
+@keyframes fade-right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

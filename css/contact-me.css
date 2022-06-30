@@ -16,7 +16,12 @@
 #contact-me{
     display: flex;
     justify-content: center;
-    /* margin-top: 10%; */
+}
+
+#contact-me .form-text p{
+    color: #6c757d;
+    font-size: calc(.925rem + .2vw);
+    text-align: left;
 }
 
 .contact-me .row{
