@@ -33,13 +33,13 @@
     }
 
 .active.fade-bottom{
-    animation: fade-bottom 0.8s ease-in;
+    animation: fade-bottom 0.9s ease-in;
 }
 .active.fade-left{
-    animation: fade-left 0.8s ease-in;
+    animation: fade-left 0.9s ease-in;
 }
 .active.fade-right{
-    animation: fade-right 0.8s ease-in;
+    animation: fade-right 0.9s ease-in;
 }
 
 @keyframes fade-bottom {

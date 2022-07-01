@@ -70,10 +70,10 @@
     color: white;
 }
 
-    .project-link:hover{
+    /* .project-link:hover{
         box-shadow: var(--boxShadowStyle);
         transition: 0.3s linear;
-    }
+    } */
 
 
 .project-tag-links .github-link {

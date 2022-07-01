@@ -42,39 +42,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script type="text/javascript" src="js/auto_typer.js"></script>
-
-    <!-- starting PHP codes  -->
+    <script type="text/javascript" src="js/scroll.js"></script>
    
-    <script>
-        window.addEventListener('scroll',(e)=>{
-            const nav = document.querySelector('.navbar-container');
-            if(window.pageYOffset>0){
-                nav.classList.add("add-shadow");
-            }else{
-                nav.classList.remove("add-shadow");
-            }
-        });
-
-        // scroll reveal function 
-        function reveal() {
-        var reveals = document.querySelectorAll(".reveal");
-
-        for (var i = 0; i < reveals.length; i++) {
-            var windowHeight = window.innerHeight;
-            var elementTop = reveals[i].getBoundingClientRect().top;
-            var elementVisible = 150;
-
-            if (elementTop < windowHeight - elementVisible) {
-            reveals[i].classList.add("active");
-            } else {
-            reveals[i].classList.remove("active");
-            }
-        }
-        }
-
-        window.addEventListener("scroll", reveal);
-    </script>
-
 </head>
 <body>  
     <div class="navbar-container">
@@ -103,10 +72,12 @@
                         <li><a href="#projects" class="nav-link navbar-element-color">Projects</a></li>
                         <li><a href="#education" class="nav-link navbar-element-color">Education</a></li>
                         <li><a href="#gallery" class="nav-link navbar-element-color">Gallery</a></li>
-                        <div class="contact-me-button">
+                        <!-- <a href="contact_me.html"> -->
+                        <div class="contact-me-button" href="contact_me.html">
                             <img src="images/utility_icons/call.svg" alt="" style="max-width: 30px;">
                             <a href="contact_me.html" class="nav-link navbar-element-color contact-me-button">Contact Me</a>
                         </div>
+                        <!-- </a> -->
                     </ul>
                 </div>
             </nav>  
@@ -119,11 +90,12 @@
             <div class="row">
                 <div class="col-sm-12 col-md-6 order-sm-2 header-banner-image">
                     <div class="home-banner-image-container">
-                        <video autoplay muted>
+                        <!-- <video autoplay muted>
                             <source src="images/header_image_1.mp4" type="video/mp4">
-                            <!-- <source src="movie.ogg" type="video/ogg"> -->
+                            <source src="movie.ogg" type="video/ogg">
                             Your browser does not support the video tag.
-                        </video>
+                        </video> -->
+                        <img src="images/header_image.png" alt="" class="img-fluid active fade-left" style="width: 390px;">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 order-sm-1 header-banner-text">
@@ -366,11 +338,12 @@
             <div class="wrapper">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 about-section-image">
-                        <video autoplay muted>
+                        <!-- <video autoplay muted>
                             <source src="images/about_me.mp4" type="video/mp4">
                             <source src="movie.ogg" type="video/ogg">
                             Your browser does not support the video tag.
-                        </video>
+                        </video> -->
+                        <img src="images/about_me.png" alt="" class="img-fluid reveal fade-left">
                     </div>
                     <div class="col-sm-12 col-md-6 about-section-text">
                         <div class="text-container">
@@ -1082,7 +1055,7 @@
                     <a href=" https://www.facebook.com/soumyadip.ghorai.10" target="_blank"><img src="images/social_media_icons/social_media1.svg" alt="Soumyadip ghorai Facebook profile"></a>
                     <a href="https://www.instagram.com/soumyadipghorai/?hl=en" target="_blank"><img src="images/social_media_icons/social_media2.svg" alt="Soumyadip ghorai Linkedin profile"></a>
                     <a href="https://www.linkedin.com/in/soumyadip-ghorai/" target="_blank"><img src="images/social_media_icons/social_media3.svg" alt="Soumyadip ghorai instagram profile"></a>
-                    <a href="contact_me.html" target="_blank"><img src="images/utility_icons/contact-me.png" alt="Soumyadip ghorai contact me page"></a>
+                    <a href="contact_me.html"><img src="images/utility_icons/contact-me.png" alt="Soumyadip ghorai contact me page"></a>
                 </div>
             </div>
             <div class="copy-right">
