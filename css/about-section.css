@@ -39,6 +39,30 @@
     width: 100%;
 }
 
+/* .skills-container{
+    display: flex;
+    justify-content: center;
+}
+
+.skill-span{
+    margin-top: 2%;
+    padding: 2%;
+    width: 60%;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--boxShadowStyle);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.skill-description{
+    color: white;
+}
+
+.skill-description:hover{
+    color: var(--secondaryColor);
+} */
+
 @media screen and (max-width : 948px){
     .about-section-text .text-container p, .software-tools-name{
         font-size: 1.6vw;
@@ -49,4 +73,7 @@
     .about-section-text .text-container p, .software-tools-name{
         font-size: 3.6vw;
     }
+    /* .skill-span{
+        width: 80%;
+    } */
 }
