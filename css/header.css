@@ -1,0 +1,168 @@
+.hero-header{
+    margin: 70px 50px 10px 50px;
+    padding: 30px 30px 10px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+    .hero-header-text{
+        margin: 7% 6%;
+        padding: 2%;
+        line-height: 45px;
+    }
+
+        #header-text1{
+            font-size: 30px;
+        }
+
+        #header-text2{
+            font-size: 40px;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        
+        .wrapper a{
+            font-size: 40px;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+            color : #00887A;
+        }
+
+            .location{
+                display: flex;
+            }
+
+            .location svg{
+                padding: 0px 0px 10px 0px;
+            }
+
+            .location p{
+                padding-left: 5px;
+                margin: 0;
+                font-family: sans-serif;
+                font-size: 16px;
+                font-weight: 300;
+                letter-spacing: 1px;
+                line-height: 25px;
+            }
+
+    .coding-platforms{
+        display: flex;
+    }
+
+    .coding-platforms img{
+        max-width: 24px;
+        margin: 10px 10px 10px 0px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .coding-platforms img:hover{
+        box-shadow: 0px 0px 10px rgb(207, 221, 223);
+        transition: 0.3s ease-in-out;
+    }
+    .hero-header-iamge{
+        margin: 3%;
+        padding: 2%;
+    }
+    .hero-header-iamge img {
+        width: 450px;
+    }
+.resume button{
+    padding: 15px 25px ;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color : #00887A;
+    border: none;
+    color: white;
+}
+
+.resume button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.resume{
+    left: 0;
+    margin: 10px 20px 0px 0px;
+}
+
+.lead-generate{
+    display: flex;
+}
+
+.lead-generate .hire-me{
+    margin-top: 10px;
+}
+
+.lead-generate .hire-me button{
+    padding: 15px 25px ;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: none;
+    color: #00887A;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.lead-generate .hire-me button:hover{
+    box-shadow: 0px 0px 10px rgb(207, 221, 223);
+    cursor: pointer;
+}
+
+@media (max-width: 680px){
+    .hero-header{
+        display: contents;
+        min-width: 400px;
+    }
+    .header-logo p{
+        text-align: center;
+    }
+
+    .hero-header-text{
+        line-height: 40px;
+        margin: 3% 0% 2% 6%;
+        padding: 5% 0% 2% 5%;
+
+    }
+
+    .random_text{
+        display: none;
+    }
+
+    #header-text1{
+        font-size: 18px;
+        line-height: 10px;
+        max-width: 600px;
+    }
+
+    #header-text2{
+        font-size: 24px;
+    }
+    .wrapper a{
+        font-size: 24px;
+    }
+
+    .resume button{
+        padding: 10px 20px ;
+    }
+
+    .resume{
+        margin: 10px 10px 0px 0px;
+    }
+
+    .lead-generate .hire-me button{
+        padding: 10px 20px ;
+    }
+
+    .hero-header-iamge{
+        margin-left: 10%;
+        padding: 3%;
+    }
+    .hero-header-iamge img {
+        width: 300px;
+    }
+
+    
+}

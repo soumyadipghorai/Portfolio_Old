@@ -1,0 +1,72 @@
+.contribution-div{
+    margin: 0px 50px 0px 50px;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.contribution h4{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px 25px 10px;
+    margin: 0px 10px 25px 10px;
+}
+.contribution-image-container img{
+    max-width: 80px;
+}
+
+.contribution-image-container{
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(3, 1fr) ; 
+    /* grid-template-rows: repeat(2, 200px); */
+    grid-gap: 20px ;
+    margin: 0px 0px 20px 20px;
+}
+
+.company-div{
+    color: white; 
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 10px 10px 0px 10px;
+    border-radius: 15px; 
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgb(207, 221, 223);
+}
+
+.company-div-text{
+    display: flex;
+    justify-content: center;
+}
+
+.company-div:hover{
+    color: black;
+    box-shadow: 0px 0px 10px rgb(181, 191, 192);
+    transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in;
+}
+
+@media (max-width: 680px){
+    .contribution h4{
+        font-size: 18px;
+    }
+
+    .company-div p{
+        display: none;
+    }
+
+    .ericsson{
+        width: 40px;
+    }
+
+    .gdsc{
+        width: 40px;
+    }
+
+    .estatus{
+        width: 40px;
+    }
+}

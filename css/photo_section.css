@@ -1,0 +1,111 @@
+.photo-gallery{
+    margin: 0px 50px 20px 50px;
+    padding: 0px 30px 30px 30px;
+}
+
+.photo-gallery-text h4{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 10px 10px 10px;
+    margin: 20px 10px 10px 10px;
+}
+
+.photo-gallery-text p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 2px 0px 2px 10px;
+}
+
+.photo-gallery-container{
+    display: flex;
+    margin: 20px 0px 10px 40px;
+    max-width: 100%;
+    /* justify-content: space-around; */
+}
+
+.photo-container-1{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr) ; 
+}
+
+.photo-container-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo-container-1 img{
+    width: 425px;
+}
+@media (max-width: 680px){
+    .photo-gallery{
+        margin: 0px 10px 10px 10px;
+        padding: 0px 10px 10px 10px;
+    }
+    .photo-gallery-text h4{
+        font-size: 18px;
+    }
+    .photo-gallery-text p{
+        font-size: 14px;
+        padding: 1px 0px 1px 0px;
+        margin: 2px 0px 2px 0px;
+        /* text-align: left; */
+    }
+
+    .photo-gallery-container{
+        margin-left: 10%;
+    }
+
+    .photo-container-1 img{
+        width: 125px;
+        /* width: 90%; */
+    }
+
+    .varticle-2{
+        /* display: none; */
+        max-width: 158px;
+        /* width: 10%; */
+    }
+
+    .varticle-1{
+        display: none;
+        /* max-height: 120px; */
+    }
+}
+@media (max-width: 370px){
+    /* .photo-gallery{
+        margin: 0px 10px 10px 10px;
+        padding: 0px 10px 10px 10px;
+    }
+    .photo-gallery-text h4{
+        font-size: 24px;
+    }
+    .photo-gallery-text p{
+        font-size: 10px;
+        padding: 1px 0px 1px 0px;
+        margin: 2px 0px 2px 0px;
+    } */
+
+    .photo-gallery-container{
+        margin-left: 4%;
+    }
+
+    /* .photo-container-1 img{
+        width: 125px;
+    }
+
+    .varticle-2{
+        display: none;
+        max-width: 158px;
+    }
+
+    .varticle-1{
+        display: none;
+        max-height: 120px;
+    } */
+}

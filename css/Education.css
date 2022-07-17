@@ -1,105 +1,112 @@
 .education{
-    background-color: #ffffff;
-    background-image: radial-gradient(#d3d3d3 0.8500000000000001px, #ffffff 0.8500000000000001px);
-    background-size: 17px 17px;
-    padding-bottom: 3.5%;
-    padding-top: 3%;
+    margin: 10px 50px 10px 50px;
+    padding: 10px 30px 10px 30px;
 }
 
-.education .container{
-    background-color: white;
-    border-radius: var(--borderRadius);
+.education-college h4{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
 }
 
-.education-button{
-    background-color: var(--primaryColor);
-    color: white;
-    padding: 1% 3% 1% 3%;
-    border: 0.5px solid var(--primaryColor);;
-    border-radius: var(--borderRadius);
-    margin-right: 20px;
-    cursor: pointer;
-    text-transform: uppercase;
-    text-decoration: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.history-tl-container{
+    font-family: "Roboto",sans-serif;
+    width:50%;
+    margin:auto;
+    display:block;
+    position:relative;
+}
+.history-tl-container ul.tl{
+    margin:20px 0;
+    padding:0;
+    display:inline-block;
+
+}
+.history-tl-container ul.tl li{
+    list-style: none;
+    margin:auto;
+    margin-left:200px;
+    min-height:50px;
+    /*background: rgba(255,255,0,0.1);*/
+    border-left:1px dashed #86D6FF;
+    padding:0 0 50px 30px;
+    position:relative;
+}
+.history-tl-container ul.tl li:last-child{ border-left:0;}
+.history-tl-container ul.tl li::before{
+    position: absolute;
+    left: -18px;
+    top: -5px;
+    content: " ";
+    border: 8px solid rgba(255, 255, 255, 0.74);
+    border-radius: 500%;
+    background: #00887A;
+    height: 20px;
+    width: 20px;
+    transition: all 500ms ease-in-out;
+
+}
+.history-tl-container ul.tl li:hover::before{
+    border-color:  #00887A;
+    transition: all 1000ms ease-in-out;
 }
 
-    .education-button:hover{
-        background-color: white;
-        color: black;    
-        border: 0.5px solid var(--bordercolor);
-        box-shadow: 0px 0px 0px 0px;
-        transition: 0.3s linear;
-    }
-
-
-.education-card{
-    display: flex;
+ul.tl li .item-detail{
+    color:rgba(0,0,0,0.5);
+    font-size:12px;
 }
 
-.university-logo img{
-    width: 60px;
+ul.tl li .degree{
+    color:rgba(0,0,0,0.5);
+    font-size:12px;
+    font-weight: 600;
 }
 
-    .university-name h3{
-        font-size: 15px;
-        margin: 0px;
-        padding: 0px;
-        color: var(--secondaryColor);
-    }
-
-    .degree-info{
-        margin-left: 28px;
-    }
-
-    .degree-info p{
-        margin: 0px;
-        padding: 0px;
-        text-align: left;
-        font-weight: 450;
-    }
-
-    .degree-info span{
-        font-size: 13px;
-    }
-
-@media (max-width : 948px){
-    .certificate-wrapper{
-        display: block;
-        justify-content: center;
-    }
-    .education .card-body{
-        padding: 5%;
-    }
-    .education .card-body .education-card{
-        display: block;
-    }
-    .university-logo{
-        display: flex;
-        justify-content: center;
-    }
-    .education .card-body .university-logo img{
-        max-width: 50px;
-    }
-    .degree-info{
-        margin-left: 2%;
-    }
+ul.tl li .timestamp{
+    color: #8D8D8D;
+    position: absolute;
+  width:100px;
+    left: -50%;
+    text-align: right;
+    font-size: 12px;
 }
 
-@media screen and (max-width : 480px){
-    .education-button{
-        font-size: 3.6vw;
-        margin-bottom: 10px;
+@media (max-width: 680px){
+    .education{
+        margin: 15px 10px 10px 10px;
+        padding: 10px;
     }
-    .university-logo{
+
+    .education-college h4{
+        font-size: 18px;
+    }
+
+    .history-tl-container{
+        margin:10px 10px 10px 10px;
+    }
+
+    .history-tl-container ul{
+        margin: 5px;
+    }
+
+    .history-tl-container ul.tl li{
+        margin: 0px 0px 10px 10px;
+        padding-bottom: 30px;
+    }
+
+    .timestamp{
         display: none;
     }
 
-    .education .row{
-        display: block;
+    ul.tl li .item-detail{
+        display: none;
     }
 
-    #multiCollapseExample1, #multiCollapseExample2, #multiCollapseExample3{
-        margin-bottom: 10px;
+    ul.tl li .degree{
+        font-weight: 400;
+        font-size: 10px;
     }
 }
